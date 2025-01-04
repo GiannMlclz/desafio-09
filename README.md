@@ -159,3 +159,27 @@ c) Adaptar el ejercicio anterior para que se muestren 2 gatos alternadamente:
  Gato #9: 🐈 🐾🐾🐾🐾
  
  Gato #10: 🐈‍⬛ 🐾🐾🐾�
+
+ ```sh
+ var cantidadDeGatos = 10;
+var cantidadDePasos = 4;
+
+for(let i = 1; i <= cantidadDeGatos; i++) {
+    let gatosCaminando = '🐈'
+    if (i % 2 == 0) {
+        gatosCaminando += '🐈‍⬛'
+    }
+
+    let patitas = ""
+    for (let x = 1; x <= cantidadDePasos; x++) {
+        patitas+='🐾'
+       
+    }
+
+    console.log(`gato #${i}: ${gatosCaminando}${patitas}`)
+}
+
+* En este ejercicio use el resto nuevamente mas el atributo for if para que muestre los emojis intercalados dependiendo del resto.
+```
+
+Link GitHub: https://github.com/GiannMlclz/desafio-09
