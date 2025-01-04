@@ -130,4 +130,32 @@ for(let i = 1; i <= cantidadDeGatos; i++) {
 }
 
 * Para este ejercicio se pedia crear dos variables con valores libres, lo que hice fue utilizar dos for(), uno para cada emoji e incremente el valor de las patitas con +=.
+```
 
+## Ejercicio n°3
+
+c) Adaptar el ejercicio anterior para que se muestren 2 gatos alternadamente:
+
+ var cantidadDeGatos = 10;
+
+ var cantidadDePasos = 4;
+
+ Gato #1: 🐈 🐾🐾🐾🐾
+
+ Gato #2: 🐈‍⬛ 🐾🐾🐾🐾
+
+ Gato #3: 🐈 🐾🐾🐾🐾
+
+ Gato #4: 🐈‍⬛ 🐾🐾🐾🐾
+
+ Gato #5: 🐈 🐾🐾🐾🐾
+
+ Gato #6: 🐈‍⬛ 🐾🐾🐾🐾
+
+ Gato #7: 🐈 🐾🐾🐾🐾
+
+ Gato #8: 🐈‍⬛ 🐾🐾🐾🐾
+
+ Gato #9: 🐈 🐾🐾🐾🐾
+ 
+ Gato #10: 🐈‍⬛ 🐾🐾🐾�
